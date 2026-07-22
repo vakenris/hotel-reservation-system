@@ -1,6 +1,7 @@
 import { Header } from "../components/Header/Header";
 import hero from '../assets/hero.png'
 import './pages.css'
+import { Chooser } from "../components/Chooser/Chooser";
 export function MainPage() {
     return (
         <div className="main-page">
@@ -14,8 +15,8 @@ export function MainPage() {
                         <p>в любой точке мира</p>
                     </div>
                 </div>
-                
             </div>
+            <Chooser/>
 
         </div>
     );

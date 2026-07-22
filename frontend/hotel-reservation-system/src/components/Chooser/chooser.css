@@ -1,0 +1,47 @@
+.chooser{
+    background-color: var(--white);
+    border: 1px solid var(--border);
+    display: flex;
+    box-shadow: 0 10px 28px 0 rgb(20, 31, 51, 0.08);
+    padding-top: 22px;
+    padding-bottom: 22px;
+    border-radius: 26px;
+    padding-left: 22px;
+}
+
+
+
+label{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+label input{
+    border: none;
+}
+
+label span{
+    color: var(--gray);
+    font-size: 13px;
+}
+
+.search{
+    display: flex;
+    
+}
+
+.dates{
+    display: flex;
+}
+
+.search-button{
+    font-size: 18px;
+    color: var(--white);
+    background-color: var(--primary);
+    border-radius: 14px;
+    padding: 19px 58px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
